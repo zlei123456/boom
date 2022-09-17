@@ -1,0 +1,78 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-07-14 10:57:45
+ * @LastEditTime: 2021-07-14 17:11:25
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /msnm/src/about.html
+-->
+
+
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>product</title>
+        <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"> -->
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/animate.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="topUI">
+                <!-- <img src="http://demos.admin868.com/demo186/skin/images/logo.png" width="200px" height="60px"/> -->
+                <!-- <p class="logo">SHIHUAN</p> -->
+                <img src="../res/logoText.jpg" width="200px" style="margin-left: 20px;"/>
+
+                <div>
+                    <ul class="nav">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="development.html">Development</a></li>
+                        <li><a href="contactUs.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="display: flex; width: 100%; height: 300px; background: url(../res/bg.jpg) no-repeat center center; justify-content: center; align-items: center; margin-top: 5px; border-radius: 6px;
+                      background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+            ;">
+                <!-- <div style="background-color: #ffffff5a; width: 50%; height: 150px; align-items: center; border-radius: 4px;" class="fadeInDown">
+                    <p style="color: black; font-size: 28px; font-weight: 700; text-align: center;">The pursuit of excellence endless</p>
+                    <p style=" text-align: center;">Dalian Boom International Co., Ltd</p>
+                </div> -->
+            </div>
+
+            <div id="productInfoDiv">
+                <div style="flex-direction: column;">
+                    <img id="productInfoImg1" />
+                    <div style="flex-direction: row; align-items: center; height: 250px; margin-top: 10px; ">
+                        <!-- <video width="200px" height="200px" loop="loop" autoplay="autoplay" muted>
+                            <source src="../res/p1.mp4" type="video/mp4">
+                          </video> -->
+                        <img id="productInfoImg2" />
+                        <img id="productInfoImg3" />
+                    </div>
+
+                </div>
+                
+                <ul style="margin-left: 30px; margin-right: 20px;">
+                    <li id="productInfoName">name</li>
+                    <li id="productInfoTxt" class="productTxt"></li>
+                    <li id="productInfoTxt1" class="productTxt"></li>
+                    <li id="productInfoTxt2" class="productTxt"></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="bottomUI">
+            <p class="bottomFont">@ Dalian Boom International Co., Ltd</p>
+        </div>
+
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/product1.js"></script>
+
+    </body>
+</html>
